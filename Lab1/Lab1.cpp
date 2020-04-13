@@ -1,4 +1,4 @@
-#include <string>
+﻿#include <string>
 #include <locale.h>
 #include <iostream>
 #include <fstream>
@@ -41,7 +41,7 @@ int main()
                 mess = mess + stoi(sms_number);
             }
             if (msisdn_dest == "968247916")
-                if (stod(call_duration) > 5)    
+                if (stod(call_duration) > 5)
                 {
                     out_call = out_call + stoi(call_duration) - 4;
                 }
